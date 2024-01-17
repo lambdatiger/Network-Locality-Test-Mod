@@ -1,0 +1,24 @@
+name = "Network Locality Test Mod"
+author = "Lambda.Tiger"
+prefix = "lmd_tst"
+mainprefix = "z"
+
+[files]
+include = [
+]
+exclude = [
+    "hemtt.exe",
+    ".vscode/*",
+    "dev/*",
+]
+
+[version]
+git_hash = 0 # Default: 8[version]
+
+[binarize]
+enabled = true # Default: true
+exclude = [ ]
+
+
+[rapify]
+enabled = true
